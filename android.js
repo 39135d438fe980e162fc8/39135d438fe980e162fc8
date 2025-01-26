@@ -152,7 +152,6 @@ isForwarded: true,
 quotedAd: {
 advertiserName: "⩟⬦𪲁 ͢𝐀͠𝐗͜-",
 mediaType: "IMAGE",
-jpegThumbnail: tdxlol,
 caption: "@null⩟⬦𪲁 ͢𝐀͠𝐗͜-".repeat(9999)
 },
 placeholderKey: {
