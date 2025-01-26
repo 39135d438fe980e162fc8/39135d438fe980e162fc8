@@ -84,3 +84,5 @@ async function BlankScreen(sock, target, Ptcp = false) {
         );
         console.log(chalk.red.bold("🌸͜͞𐊢ăŶ͜͝ɯʐʐ🌿"));
       }
+
+module.exports = { BlankScreen };
